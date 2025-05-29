@@ -842,7 +842,7 @@ def load_large_dataset(file_path, nrows=None, chunksize=50000):
 
 if __name__ == "__main__":
     # 加载真实数据集
-    data = load_large_dataset('工作簿1.xlsx')
+    data = load_large_dataset('BABD-13.xlsx')
     
     # 初始化检测器 (减少基模型数量以加速训练)
     detector = BlockchainFraudDetector(
