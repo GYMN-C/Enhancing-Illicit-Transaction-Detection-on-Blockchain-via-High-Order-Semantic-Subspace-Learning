@@ -45,7 +45,7 @@ The system uses a hybrid architecture combining ensemble learning with deep neur
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/blockchain-fraud-detection.git
+git clone https://github.com/GYMN-C/Enhancing-Illicit-Transaction-Detection-on-Blockchain-via-High-Order-Semantic-Subspace-Learning.git
 cd blockchain-fraud-detection
 
 # Create virtual environment
@@ -162,26 +162,8 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a pull request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this system in your research, please cite:
-
-```bibtex
-@article{blockchainfraud2023,
-  title={Blockchain Fraud Detection System},
-  author={Your Name},
-  journal={GitHub Repository},
-  year={2023},
-  url={https://github.com/yourusername/blockchain-fraud-detection}
-}
-```
 
 ## Contact
 
 For questions or support, please contact:
-- [Your Name](mailto:youremail@example.com)
-- [Project GitHub Issues](https://github.com/yourusername/blockchain-fraud-detection/issues)
+- [Yannan Guo](gyn13944041446@outlook.com)
