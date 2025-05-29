@@ -165,5 +165,5 @@ We welcome contributions! Please follow these steps:
 
 ## Contact
 
-For questions or support, please contact:
-- [Yannan Guo](gyn13944041446@outlook.com)
+For questions or support, please contact:  
+- [Yannan Guo](mailto:gyn13944041446@outlook.com)
