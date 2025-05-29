@@ -1,7 +1,3 @@
-以下是更新后的项目文档，已将 **BABD-13 数据集网址** 添加至合适位置：
-
----
-
 # Blockchain Fraud Detection System
 
 This project implements a state-of-the-art fraud detection system for blockchain transactions using a novel ensemble approach with deep feature pyramids. The system is designed to detect illegal transactions in large-scale blockchain networks with high accuracy and efficiency.
