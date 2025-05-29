@@ -1,16 +1,19 @@
-# Blockchain Fraud Detection System
+以下是更新后的项目文档，已将 **BABD-13 数据集网址** 添加至合适位置：
 
+---
+
+# Blockchain Fraud Detection System
 
 This project implements a state-of-the-art fraud detection system for blockchain transactions using a novel ensemble approach with deep feature pyramids. The system is designed to detect illegal transactions in large-scale blockchain networks with high accuracy and efficiency.
 
 ## Key Features
 
-- 🚀 **High-Performance Detection**: Detects fraudulent transactions with high precision
-- 🧠 **Ensemble Learning**: Combines 15+ base models with a deep feature pyramid
-- 📈 **Feature Pyramid Architecture**: Extracts multi-granularity features (transaction, address, network levels)
-- 🔄 **Incremental Learning**: Adapts to new transaction patterns without full retraining
-- 🌐 **Federated Learning Support**: Enables collaborative training across multiple nodes
-- ⚡ **Dynamic Routing**: Intelligently selects fast or deep analysis paths based on confidence
+* 🚀 **High-Performance Detection**: Detects fraudulent transactions with high precision
+* 🧠 **Ensemble Learning**: Combines 15+ base models with a deep feature pyramid
+* 📈 **Feature Pyramid Architecture**: Extracts multi-granularity features (transaction, address, network levels)
+* 🔄 **Incremental Learning**: Adapts to new transaction patterns without full retraining
+* 🌐 **Federated Learning Support**: Enables collaborative training across multiple nodes
+* ⚡ **Dynamic Routing**: Intelligently selects fast or deep analysis paths based on confidence
 
 ## Model Architecture
 
@@ -32,14 +35,18 @@ The system uses a hybrid architecture combining ensemble learning with deep neur
    └── Deep Analysis Path (for ambiguous cases)
 ```
 
+## Dataset
+
+We use the [BABD-13: Blockchain Anomaly Behavior Dataset](https://www.kaggle.com/datasets/lemonx/babd13) from Kaggle, which includes labeled blockchain transactions across multiple behavior types. You can download and place the dataset in the `data/` directory for training and evaluation.
+
 ## Installation
 
 ### Prerequisites
 
-- Python 3.8+
-- PyTorch 1.10+
-- CUDA 11.3 (for GPU acceleration)
-- LightGBM
+* Python 3.8+
+* PyTorch 1.10+
+* CUDA 11.3 (for GPU acceleration)
+* LightGBM
 
 ### Install Dependencies
 
@@ -51,7 +58,7 @@ cd blockchain-fraud-detection
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
-venv\Scripts\activate    # Windows
+venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
@@ -61,7 +68,7 @@ pip install -r requirements.txt
 
 ### 1. Data Preparation
 
-Place your blockchain transaction data in CSV or Excel format in the `data/` directory. The dataset should include transaction features and a 'label' column indicating legitimate (0) or fraudulent (1) transactions.
+Place your blockchain transaction data (e.g., BABD-13) in CSV or Excel format in the `data/` directory. The dataset should include transaction features and a 'label' column indicating legitimate (0) or fraudulent (1) transactions.
 
 ### 2. Training the Model
 
@@ -112,8 +119,6 @@ print(f"Test F1 Score: {metrics['f1']:.4f}")
 
 ### 4. Incremental Learning
 
-When new data arrives, update the model without full retraining:
-
 ```python
 # Load new data
 new_data = load_large_dataset('data/new_transactions.xlsx')
@@ -126,14 +131,14 @@ detector.incremental_learning(new_data)
 
 Performance on blockchain transaction dataset (500,000+ transactions):
 
-| Metric        | Value   |
-|---------------|---------|
-| Accuracy      | 98.2%   |
-| Precision     | 97.8%   |
-| Recall        | 95.6%   |
-| F1 Score      | 96.7%   |
-| AUC           | 99.1%   |
-| Fast Path Usage | 83.4%   |
+| Metric          | Value |
+| --------------- | ----- |
+| Accuracy        | 98.2% |
+| Precision       | 97.8% |
+| Recall          | 95.6% |
+| F1 Score        | 96.7% |
+| AUC             | 99.1% |
+| Fast Path Usage | 83.4% |
 
 ## File Structure
 
@@ -162,8 +167,12 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a pull request
 
-
 ## Contact
 
-For questions or support, please contact:  
-- [Yannan Guo](mailto:gyn13944041446@outlook.com)
+For questions or support, please contact:
+
+* [Yannan Guo](mailto:gyn13944041446@outlook.com)
+
+---
+
+如需进一步美化或国际会议投稿准备，我也可以帮你调整格式和语气。需要我继续吗？
