@@ -172,7 +172,3 @@ We welcome contributions! Please follow these steps:
 For questions or support, please contact:
 
 * [Yannan Guo](mailto:gyn13944041446@outlook.com)
-
----
-
-如需进一步美化或国际会议投稿准备，我也可以帮你调整格式和语气。需要我继续吗？
